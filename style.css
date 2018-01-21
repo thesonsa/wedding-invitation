@@ -3,8 +3,13 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-div {
-	/*border: 3px solid #73AD21;*/
+img {
+	width: 80%;
+}
+
+.vertical-center {
+	display: flex;
+	align-items: center;
 }
 
 .title-background {
@@ -16,20 +21,20 @@ div {
 }
 
 .shadow-font {
-	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.10);
+	text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.15);
 }
 
 .title-font {
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
-	font-size: 8vw;
+	font-size: 4rem;
 }
 
 .light-font {
 	font-weight: 100;
 	letter-spacing: 1.5px;
-	font-size: 2vw;
+	font-size: 1.5rem;
 }
 
 .text-on-the-right {
@@ -39,7 +44,7 @@ div {
 }
 
 .text-block {
-	font-weight: 100;
+	font-weight: 200;
 	text-align: center; 
 	letter-spacing: 0.8px; 
 	font-size: 20px;"
@@ -71,7 +76,7 @@ div {
 }
 
 .line {
-	margin-top: 5vw; 
-	margin-bottom: 5vw;
+	margin-top: 3vw; 
+	margin-bottom: 3vw;
 	width: 50%
 }

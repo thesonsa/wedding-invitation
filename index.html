@@ -1,66 +1,146 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css" type="text/css" media="all">
-		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500&amp;subset=cyrillic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,500&amp;subset=cyrillic" rel="stylesheet">
 		<link rel="shortcut icon" href="img/heart.ico" type="image/x-icon">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	</head>
 	<body>
-		<!-- TITLE BLOCK -->
-		<div class="title-background" style="background-image: url(img/LAA-17_700_TITLE.jpg); display: table;"/>
-			<div style="vertical-align: middle; text-align: center; display: table-cell; color: white;">
-				<div class="shadow-font title-font">
-					Дима и Соня <br/>
-				</div>
-				<div class="shadow-font light-font">
-					27 апреля 2018, Новосибирск <br/>
-				</div>
-			</div>
-		</div>
+		<div class="container">
 
-		<!-- BLOCK: we'll be happy to share the day with you -->
-		<div class="flex-container">
-			<div class="flex-item">
-				<img src="img/LAA-22-block2.jpg" style="width:80%;">
-			</div>
-			<div class="flex-item">
-				<div class="text-on-the-right">
-					<hr width="10%">
-					<div>
-						Мы будем счастливы разделить с вами этот день ♡
+			<!-- BLOCK1: title -->
+			<div class="row align-items-center text-center">
+				<div class="col vertical-center" style="background-image: url(img/LAA-17_700_TITLE.jpg); height: 700px">
+					<div class="mx-auto" style="color: white;">
+						<div class="shadow-font title-font">
+							Дима и Соня
+						</div>
+						<div class="light-font" style="color: grey;">
+							27 апреля 2018, Новосибирск <br/>
+						</div>
 					</div>
-					<hr width="10%">
 				</div>
 			</div>
+
+			<!-- BLOCK2: we'll be happy to share the day with you -->
+			<div class="row align-items-center text-center mt-5">
+				<div class="col">
+					<img src="img/LAA-22-block2.jpg">
+				</div>
+				<div class="col">
+					<div class="text-on-the-right">
+						<div>
+							Мы будем счастливы разделить с вами этот день ♡
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- BLOCK3: info about start -->
+			<div class="row">
+				<div class="col">
+					<hr class="line">
+					<div class="text-block">
+						<div style="font-size: 35px;">
+							Начнем в ЗАГСе Советского района в&nbsp;14:00.
+						</div>
+						<div>
+							(можно приехать немного заранее, будем обниматься и фотографироваться)
+						</div><br/>
+						<div style="font-size: 30px;">
+							А потом погуляем, покушаем, потанцуем!
+						</div><br/>
+						<div style="color: #828282;">
+							Прочие подробности сообщим ближе к делу.
+						</div>
+						<!-- Button: open map -->
+			  			<a href="https://yandex.ru/maps/65/novosibirsk/?mode=search&text=Отдел%20ЗАГС%20Советского%20района%20города%20Новосибирска&sll=83.196808%2C54.937382&sspn=0.070124%2C0.025845&ol=biz&oid=1031647108&ll=83.110109%2C54.845446&z=16" 
+			  			class="btn btn-dark mt-5" 
+			  			role="button" 
+			  			target="_blank">
+			  				где ЗАГС?
+			  			</a>
+					</div>
+					<hr class="line">
+				</div>
+			</div>
+
+			<!-- BLOCK4: three pictures and please come -->
+			<div class="row text-center">
+				<div class="col">
+					<img src="img/LAA-61_block4_1.jpg">
+				</div>
+				<div class="col">
+					<img src="img/LAA-63_block4_2.jpg">
+				</div>
+				<div class="col">
+					<img src="img/LAA-56_block4_3.jpg">
+				</div>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col">
+					<div class="text-block" style="font-size: 25px;">
+						Приходите, приезжайте, прилетайте ✈ <br/>
+						Мы будем вам очень рады! <br/>
+						<br/>
+						Одевайтесь в любимое и удобное!
+
+						<div style="color: #828282; font-size: 15px; margin-top: 5vw">
+						Пожалуйста, не дарите нам сервизы, постельное белье и прочие сковородки :)
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- BLOCK5: with text and button-to-form -->
+			<div class="row">
+				<div class="col">
+					<hr class="line">
+					<div class="text-block" style="font-size: 25px;">
+						Пишите, звоните, 
+						заполняйте форму,<br/>
+						чтобы сообщить о своем участии :)
+						<div class="mt-5">
+							Или если у вас возникнут вопросы.
+						</div>
+						<div class="mt-5">
+							Или просто так! ♥
+						</div>
+						<!-- Button: open form -->
+			  			<a href="https://goo.gl/forms/IlQbboRLcoHMhgOr2" 
+			  			class="btn btn-dark mt-5" 
+			  			role="button" 
+			  			target="_blank">
+			  				Заполню форму!
+			  			</a>
+			  		</div>
+				</div>
+			</div>
+
+			<!-- BLOCK6: with goodbyes -->
+			<div class="row">
+				<div class="col">
+					<hr class="line">
+					<div class="text-block mb-1" style="font-size: 15px;">
+						С нетерпением ждем встречи c вами,<br/>
+						Дима и Соня
+					</div>
+				</div>
+			</div>
+
+			<!-- BLOCK7: with goodbye picture -->
+			<div class="row text-center">
+				<div class="col mb-1">
+					<img src="img/LAA-51_block7_mini.jpg" style="width:15%;">
+				</div>
+			</div>	
+
+
 		</div>
 
-		<!-- BLOCK: info about start -->
-		<hr class="line">
-		<div class="text-block">
-			<div style="font-size: 35px;">
-				Начнем в ЗАГСе Советского района в&nbsp;14:00.
-			</div>
-			<div>
-				(можно приехать немного заранее, будем обниматься и фотографироваться)
-			</div><br/>
-			<div style="font-size: 30px;">
-				А потом погуляем, покушаем, потанцуем!
-			</div><br/>
-			<div style="color: #828282;">
-				Прочие подробности сообщим ближе к делу.
-			</div>
-			<!-- Button: open map -->
-  			<a href="https://yandex.ru/maps/65/novosibirsk/?mode=search&text=Отдел%20ЗАГС%20Советского%20района%20города%20Новосибирска&sll=83.196808%2C54.937382&sspn=0.070124%2C0.025845&ol=biz&oid=1031647108&ll=83.110109%2C54.845446&z=16" 
-  			class="btn btn-dark" 
-  			style="margin-top: 3vw;" 
-  			role="button" 
-  			target="_blank">
-  				где ЗАГС?
-  			</a>
+		<div class="mt-3" style="background-color: black; height: 50px;">
 		</div>
-		<hr class="line">
-
-
 	</body>
 </html>
