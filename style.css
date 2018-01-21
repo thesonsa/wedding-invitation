@@ -3,6 +3,18 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+div {
+	/*border: 3px solid #73AD21;*/
+}
+
+.title-background {
+	/*background-attachment: fixed;*/
+	background-position: center 700px;
+	background-size: cover;
+	height: 700px; 
+	width: 100%
+}
+
 .shadow-font {
 	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.10);
 }
@@ -11,9 +23,48 @@ body {
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
+	font-size: 8vw;
 }
 
 .light-font {
 	font-weight: 100;
 	letter-spacing: 1.5px;
+	font-size: 2vw;
+}
+
+.text-on-the-right {
+	font-size:38px;
+	margin-right: 2vw;
+	margin-left: 2vw;
+}
+
+.floating-box-2 {
+    display: inline-block;
+    min-width: 300px;
+    min-height: 300px;
+    width: 45vw;
+    height: 45vw;
+    /*padding: 5vw;*/
+    vertical-align: top;
+}
+
+.flex-container {
+	display: flex;
+  	flex-wrap: wrap;
+  	margin-top: 5vw;
+}
+
+.flex-item {
+	flex: 1;
+  	min-width: 300px;
+  	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.line {
+	margin-top: 5vw; 
+	margin-bottom: 5vw;
+	width: 50%
 }
