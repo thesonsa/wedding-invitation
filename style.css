@@ -14,9 +14,9 @@ img {
 
 .title-background {
 	/*background-attachment: fixed;*/
-	background-position: center 100vw;
+	background-position: center 97vh;
 	background-size: cover;
-	height: 100vw; 
+	height: 97vh; 
 	width: 100%
 }
 
