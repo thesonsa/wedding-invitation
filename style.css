@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.shadow-font {
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.10);
+}
+
+.title-font {
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+
+.light-font {
+	font-weight: 100;
+	letter-spacing: 1.5px;
+}
