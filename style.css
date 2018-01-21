@@ -14,9 +14,9 @@ img {
 
 .title-background {
 	/*background-attachment: fixed;*/
-	background-position: center 97vh;
+	background-position: center 100vh;
 	background-size: cover;
-	height: 97vh; 
+	height: 100vh; 
 	width: 100%
 }
 
@@ -38,16 +38,31 @@ img {
 }
 
 .text-on-the-right {
-	font-size:38px;
+	font-size: 2.2rem;
 	margin-right: 2vw;
 	margin-left: 2vw;
 }
 
-.text-block {
+.text {
 	font-weight: 200;
-	text-align: center; 
 	letter-spacing: 0.8px; 
-	font-size: 20px;"
+}
+
+.text-middle {
+	font-size: 1.6rem;
+}
+
+.text-small {
+	font-size: 1rem;
+}
+
+.text-grey {
+	color: #828282;
+}
+
+div.container {
+	padding: 0;
+	max-width: 100vw;
 }
 
 div.col {
@@ -81,7 +96,7 @@ div.col {
 }
 
 .line {
-	margin-top: 3vw; 
-	margin-bottom: 3vw;
+	margin-top: 0; 
+	margin-bottom: 0;
 	width: 50%
 }
