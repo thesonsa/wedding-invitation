@@ -70,6 +70,10 @@ div.col {
 	margin: 2vw;
 }
 
+div.row {
+	margin: 0;
+}
+
 .floating-box-2 {
     display: inline-block;
     min-width: 300px;
