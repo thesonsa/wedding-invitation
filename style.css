@@ -4,7 +4,7 @@ body {
 }
 
 img {
-	width: 80%;
+	width: 100%;
 }
 
 .vertical-center {
@@ -48,6 +48,11 @@ img {
 	text-align: center; 
 	letter-spacing: 0.8px; 
 	font-size: 20px;"
+}
+
+div.col {
+	min-width: 300px;
+	margin: 2vw;
 }
 
 .floating-box-2 {
